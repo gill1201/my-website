@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+  }
+  .main{
+    background-color: black;
+  }
+  .back{
+    background-image: url("https://occ-0-2991-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRmk3UUcIUOskWTk-vkvHd1sZ1m34CVLMRMaYTbcl99YQJe3OP3EO9hKP_1zKWjtIEE5VlROhAvlAutjB40CXTZy6DfPdU35Chqp.webp?r=a8d" );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.navbar{
+display: flex;
+align-items: center;
+ background-color: black;
+ position: sticky;
+  top: 0;
+  margin-bottom: 345px;
+}
+
+.name{
+flex-grow: 3;
+line-height: 1.7;
+text-align: right;
+font-size: 40px;
+font-weight: bold;
+color: red;
+cursor: pointer;
+font-family: 'Bebas Neue', sans-serif;
+padding-right: 35px;
+
+}
+.list{
+flex-grow: 11;
+
+}
+.Devops{ 
+  flex-grow: 2;
+padding: 0;
+margin: 0;
+}
+
+.list2{
+flex-grow: 3;
+
+}
+a{
+    text-decoration: none;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: white;
+    display: block; /*to make the link to take full space in list area*/
+    padding: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+.foote1{
+    list-style-type: none;
+    display: flex;
+}
+
+a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#searchbox{
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+#searchbox.active{
+  width: 180px;
+  height: 25px;
+  opacity: 1;
+  border: 2px solid white;
+}
+#noti{
+  position: relative;
+  overflow: visible;
+}
+.dropdown{
+  display: none;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  background-color: black;
+  position: absolute;
+  top: 100%; 
+  right: 25px;
+  height: 320px; 
+  overflow-y: auto;
+  width: 320px;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 999;
+}
+.dropdown::before{
+content: "";
+position: absolute;
+top: -1.5px; /* Above the dropdown */
+right: 10px;
+transform: translateX(-50%); 
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 10px solid white;
+}
+.dropdown a{
+  display: block;
+  color: white;
+  text-align: left;
+}
+.dropdown a:hover{
+  background-color: red;
+}
+
+
+#noti:hover .dropdown{
+    display: block;
+}
+.mainh1{
+color: aliceblue;
+margin-bottom: 7px;
+font-family: "Alumni Sans Pinstripe", sans-serif;
+font-weight: 10;
+font-size: 17px;
+height: 35px;
+display: flex;
+align-items: flex-end;
+}
+
+.mainmovie{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+}
+.mainmovie1{
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 120px;
+}
+
+.gta{
+  color: white;
+  margin-bottom: 50px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  
+}
+.gta1{
+  font-size: 14px;
+  
+}
+
+.gta2{
+  font-size: 25px;
+  
+}
+.gta3{
+  font-size: 17px;
+  
+}
+.gta4{
+  font-size: 17px;
+  
+}
+.gta5{
+  font-size: 17px;
+  
+}
+.btn1{
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: white;
+}
+.btn2{
+  height: 40px;
+  width: 150px;
+  background-color: grey;
+  border: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  padding: 30px 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+  margin: 10px;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-size: 14px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer-list li:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer-button-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+}
+
+.service-button {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: darkred;
+}
+
+
+   
+
+
+
+
