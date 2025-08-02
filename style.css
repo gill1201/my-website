@@ -5,6 +5,7 @@
   }
   body{
    overflow-x: hidden;
+   overflow-y: auto;
   }
   
   .main{
@@ -127,6 +128,7 @@ border-bottom: 10px solid white;
 }
 .mainh1{
 color: aliceblue;
+overflow:visible;
 margin-bottom: 7px;
 font-family: "Alumni Sans Pinstripe", sans-serif;
 font-weight: 10;
@@ -135,23 +137,22 @@ height: 35px;
 display: flex;
 align-items: flex-end;
 margin-left: 50px;
-overflow: visible;
 }
 
 .mainmovie{
   width: 100%;
   display: flex;
   flex-direction: row;
-  overflow-y: hidden;
   white-space: nowrap;
   margin-left: 50px;
-  overflow: visible;
   overflow-x: auto;
+  overflow-y: visible;
+  scroll-behavior: smooth;
 }
 .mainmovie1{
   margin-left: 3px;
   margin-right: 3px;
-  height: 120px;
+   min-height: 120px;
   overflow: visible;
   transition:  transform 3 ease-in-out;
   transition-delay: 0s;
