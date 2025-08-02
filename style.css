@@ -131,6 +131,7 @@ font-size: 17px;
 height: 35px;
 display: flex;
 align-items: flex-end;
+margin-left: 50px;
 }
 
 .mainmovie{
@@ -140,36 +141,51 @@ align-items: flex-end;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  
+  margin-left: 50px;
 }
 .mainmovie1{
   margin-left: 3px;
   margin-right: 3px;
   height: 120px;
+
 }
+.imgoflogogta{
+box-shadow: 0px 8px 16px 0px ;
+border: 1px;
+border-radius: 30px;
+height: 100px;
+}
+
 
 .gta{
   color: white;
   margin-bottom: 50px;
   font-family: "Alumni Sans Pinstripe", sans-serif;
-  
+  margin-left: 60px;
 }
 .gta1{
   font-size: 14px;
+  position: relative;
   
 }
 
 .gta2{
   font-size: 25px;
-  
+position: absolute;
+left: 11.5%;
+top: 55%;
 }
 .gta3{
   font-size: 17px;
-  
+  display: inline-block;
 }
 .gta4{
   font-size: 17px;
-  
+  display: inline-block;
+ margin-left: 30px;
+}
+.gta4 .gta4li{
+  list-style-type: disc;
 }
 .gta5{
   font-size: 17px;
@@ -200,6 +216,7 @@ align-items: flex-end;
   flex: 1;
   min-width: 180px;
   margin: 10px;
+  margin-left: 210px;
 }
 
 .footer-list {
