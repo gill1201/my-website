@@ -19,7 +19,7 @@ align-items: center;
  background-color: black;
  position: sticky;
   top: 0;
-  margin-bottom: 345px;
+  margin-bottom: 300px;
 }
 
 .name{
@@ -159,7 +159,7 @@ height: 100px;
 
 .gta{
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-family: "Alumni Sans Pinstripe", sans-serif;
   margin-left: 60px;
 }
@@ -173,7 +173,7 @@ height: 100px;
   font-size: 25px;
 position: absolute;
 left: 11.5%;
-top: 55%;
+top: 50%;
 }
 .gta3{
   font-size: 17px;
