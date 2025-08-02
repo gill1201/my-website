@@ -24,6 +24,7 @@ align-items: center;
   top: 0;
   margin-bottom: 230px;
   z-index: 99999;
+  overflow-x: scroll;
 }
 
 .name{
