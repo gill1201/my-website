@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,7 @@
     background-image: url("https://occ-0-2991-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRmk3UUcIUOskWTk-vkvHd1sZ1m34CVLMRMaYTbcl99YQJe3OP3EO9hKP_1zKWjtIEE5VlROhAvlAutjB40CXTZy6DfPdU35Chqp.webp?r=a8d" );
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;  
   }
 .navbar{
 display: flex;
@@ -24,7 +26,11 @@ align-items: center;
   top: 0;
   margin-bottom: 230px;
   z-index: 99999;
-  overflow-x: scroll;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.navbar::-webkit-scrollbar {
+  display: none;
 }
 
 .name{
